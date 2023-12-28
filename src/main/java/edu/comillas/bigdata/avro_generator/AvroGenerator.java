@@ -83,7 +83,7 @@ public class AvroGenerator {
 	    dataFileWriter.close();
 	    out.close();
 		
-	    System.exit(-1);
+	    System.exit(0);
 	    
 
 	    
