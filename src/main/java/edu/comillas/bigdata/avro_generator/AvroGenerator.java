@@ -45,7 +45,7 @@ public class AvroGenerator {
 		
 		if ( cmd.hasOption('h') || cmd.getOptions().length < 0 ) {
 			HelpFormatter formatter = new HelpFormatter();
-			formatter.printHelp("FileGenerator", options);
+			formatter.printHelp("AvroGenerator", options);
 			System.exit(0) ;
 		}
 		
