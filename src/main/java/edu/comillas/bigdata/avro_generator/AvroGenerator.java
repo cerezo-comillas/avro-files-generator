@@ -1,5 +1,7 @@
 package edu.comillas.bigdata.avro_generator;
 
+import com.fasterxml.jackson.annotation.JsonView;
+
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;

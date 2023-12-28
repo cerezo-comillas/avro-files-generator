@@ -28,7 +28,13 @@
 <include>org.slf4j:slf4j-api</include>
 <include>org.slf4j:slf4j-log4j12</include>
 <include>log4j:log4j</include>
-<include>org.apache.kafka:kafka-clients</include>
+<include>com.fasterxml.jackson.core:jackson-databind</include>
+<include>com.fasterxml.jackson.core:jackson-core</include>
+<include>com.fasterxml.jackson.core:jackson-annotations</include>
+<!--
+	<include>org.apache.kafka:kafka-clients</include>
+-->
+<include>org.apache.avro:avro</include>
 </includes>
     </dependencySet>
   </dependencySets>
